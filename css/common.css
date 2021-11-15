@@ -1,0 +1,48 @@
+/*todas las webs iguales*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+.logoprincipal{
+    text-align: left;
+}
+
+.logodwayne{
+    height: 150px;
+    width: 150px;
+}
+
+.menu{
+    position: sticky;
+    background-color: grey;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul li{
+    display: inline;
+    margin-left: 2px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu ul li a:visited{
+    color: white;
+}
+
+.menu ul li a:hover{
+    color:black;
+    
+}
