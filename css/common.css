@@ -5,17 +5,15 @@
     padding:0;
 }
 
+/*header*/
+
 header{
     background-color: black;
+    background-image: url("../img/jhonson.png");
+    background-repeat:no-repeat;
     position: static;
 }
-/*
-.logoprincipal img{
-    height: 100px;
-    width: 300px;
-    text-align: left;
-}
-*/
+
 .menu{
     text-align: center;
     height: 100px;
@@ -48,6 +46,7 @@ header{
     font-weight: bold;
 }
 
+/*body*/
 
 body{
     background-color: white;

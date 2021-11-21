@@ -1,0 +1,137 @@
+/*todas las webs iguales*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    background-image: url("../img/jhonson.png");
+    background-repeat:no-repeat;
+    position: static;
+}
+
+.menu{
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.menu  ul {
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.menu  ul li {
+    margin-top: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: solid 2px black;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.menu ul li a:hover{
+    color: rgb(166, 183, 194);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*body*/
+
+body{
+    background-color: white;
+}
+
+.tabla{
+    float: left;
+    width: 100%;
+}
+
+.tabla table{
+    margin: auto;
+}
+
+.tabla table td{
+    width: 35%;
+    height: 200px;
+}
+
+.tabla table td img{
+    height: 270px;
+    width: 430px;
+    margin-top:50px;
+    margin-left: -10px;
+    border-radius: 5%;
+    border: 5px solid #ddd;
+}
+
+.tabla table td img:hover{
+    box-shadow: 0 0 4px 4px rgba(111, 113, 114, 0.5);
+}
+
+/*footer*/
+
+footer{
+    float: left;
+    width: 100%;
+    margin-top: 3%;
+    background-color: black;
+    color: white;
+}
+
+.spam{
+    font-size: 18px;
+}
+
+.redessociales{
+    margin-top: -55px;
+}
+
+.redessociales ul{
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.redessociales  ul li {
+    margin-top: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: solid 2px black;
+}
+
+.redessociales ul li a{
+    text-decoration: none;
+    color:white;   
+}
+
+.instagram:hover{
+    color: violet;
+    text-transform: uppercase;
+}
+
+.facebook:hover{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.twitter:hover {
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+.youtube:hover{
+    color: red;
+    text-transform: uppercase;
+}
+
