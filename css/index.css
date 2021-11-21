@@ -1,0 +1,128 @@
+/*web index*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+/*header*/
+
+header{
+    background-color: black;
+    position: sticky;   
+    /*background-image: url("../img/jhonson.png");*/
+    
+}
+
+.menu{
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+
+.menu  ul {
+    list-style-type: none;
+    font-size: 20px;
+    
+}
+
+.menu  ul li {
+    margin-top: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: solid 2px black;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+
+.menu ul li a:hover{
+    color: rgb(166, 183, 194);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/*body*/
+
+body{
+    background-color: white;
+}
+
+.fotodwayne{
+    border-radius: 5%;
+    height: 500px;
+    width: 350px;
+    margin-left: 15%;
+    float: left;
+    
+}
+
+.iframenoticias {
+    width: 540px;
+    height: 500px;
+    float: left;
+    margin-right: 15%;
+    margin-left: 10%;
+    border-radius: 5%;
+    margin-bottom: 5%;
+}
+
+/*footer*/
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.spam{
+    font-size: 18px;
+}
+
+.redessociales{
+    margin-top: -55px;
+}
+
+.redessociales ul{
+    list-style-type: none;
+    font-size: 18px;
+    text-align: center;
+}
+
+.redessociales  ul li {
+    margin-top: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: solid 2px black;
+}
+
+.redessociales ul li a{
+    text-decoration: none;
+    color:white;   
+}
+
+.instagram:hover{
+    color: violet;
+    text-transform: uppercase;
+}
+
+.facebook:hover{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.twitter:hover {
+    color: cadetblue;
+    text-transform: uppercase;
+}
+
+.youtube:hover{
+    color: red;
+    text-transform: uppercase;
+}
+

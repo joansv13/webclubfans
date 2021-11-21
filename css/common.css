@@ -5,44 +5,51 @@
     padding:0;
 }
 
-.logoprincipal{
+header{
+    background-color: black;
+    position: static;
+}
+/*
+.logoprincipal img{
+    height: 100px;
+    width: 300px;
     text-align: left;
 }
+*/
+.menu{
+    text-align: center;
+    height: 100px;
+    margin-bottom: 20px;
 
-.logodwayne{
-    height: 150px;
-    width: 150px;
 }
 
-.menu{
-    position: sticky;
-    background-color: grey;
-    text-align: center;
-    font-weight: bold;
+.menu  ul {
+    list-style-type: none;
+    font-size: 20px;
     
 }
 
-.menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu ul li{
-    display: inline;
-    margin-left: 2px;
+.menu  ul li {
+    margin-top: 30px;
+    padding: 5px;
+    display: inline-block;
+    border-radius: solid 2px black;
 }
 
 .menu ul li a{
     text-decoration: none;
-    font-size: 18px;
-}
-
-.menu ul li a:visited{
-    color: white;
+    color:white;
+    
 }
 
 .menu ul li a:hover{
-    color:black;
-    
+    color: rgb(166, 183, 194);
+    text-transform: uppercase;
+    font-weight: bold;
 }
+
+
+body{
+    background-color: white;
+}
+
