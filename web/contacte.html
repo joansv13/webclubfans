@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="icon" href="./../img/logo.png">
         <meta name="keywords" content="contactes, dwayne johnson">
-        <link rel="stylesheet" type="text/css" href="../css/common.css">
+        <link rel="stylesheet" type="text/css" href="../css/contacte.css">
         <!--<link rel="stylesheet" href="">-->
     </head>
     <body>
@@ -28,7 +28,7 @@
                 </div>
             </nav>
         </header>
-        <main>
+        <main class="formulario">
             <form action="./../carpeta_php/form.php" method="post">
                 <ul>
                     <li>Nombre <input type="text" placeholder="Nombre completo" name="user"></li>
@@ -39,17 +39,19 @@
                     <li>Enviar <input type="submit" value="login"></li>
                 </ul>
             </form>
-            <br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11932.774120274247!2d2.2926007499999996!3d41.60832655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sca!2ses!4v1634477287528!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            <br>   
+        </main>
+        <main>
+            <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11932.774120274247!2d2.2926007499999996!3d41.60832655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sca!2ses!4v1634477287528!5m2!1sca!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </main>
         <footer>
-            <div>&copy;2021-2020 By Joan Sala</div>
-            <div>
+            <div class="spam">&copy;2021-2020 By Joan Sala</div>
+            <div class="redessociales">
                 <ul>
-                    <li><a href="#" target="_blank">Instagram</a></li>
-                    <li><a href="#" target="_blank">Facebook</a></li>
-                    <li><a href="#" target="_blank">Twiter</a></li>
-                    <li><a href="#" target="_blank">Youtube</a></li>
+                    <li><a href="https://www.instagram.com/therock/" target="_blank" class="instagram">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/DwayneJohnson" target="_blank" class="facebook">Facebook</a></li>
+                    <li><a href="https://twitter.com/TheRock" target="_blank" class="twitter">Twitter</a></li>
+                    <li><a href="https://www.youtube.com/results?search_query=therock" target="_blank" class="youtube">Youtube</a></li>
                 </ul>
             </div>
         </footer>
